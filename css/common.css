@@ -1,0 +1,39 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.default {
+    padding: 100px 0;
+}
+
+.default .title {
+    max-width: 1200px;
+    margin: 0 auto 32px auto;
+}
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+}
+
+.default .title p {
+    font-size: 18px;
+    margin: 16px 0 0 0;
+}
+
+.default .title span {
+    margin: 16px 0 0 0;
+}
+
+.default_btn {
+    display: inline-block;
+    border: none;
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,73 @@
+* {
+    outline: 1px solid tomato;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 90px;
+
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+}
+
+.header .header_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.header .header_wrap .gnb>ul {
+    display: flex;
+    gap: 80px;
+}
+
+.mainVisual {
+    position: relative;
+}
+
+.mainVisual .visual_slide .itm {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.mainVisual .visual_slide .itm01 {
+    background: url(../images/main_banner001.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm02 {
+    background: url(../images/main_banner002.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm03 {
+    background: url(../images/main_banner003.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.mainVisual .visual_slide .itm .slogan span {
+    font-family: GmarketSans;
+    font-size: 24px;
+    color: #;
+    margin: 0 0 32px 0;
+}
+
+.mainVisual .visual_slide .itm .slogan p {
+    font-family: GmarketSans;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+
+}
