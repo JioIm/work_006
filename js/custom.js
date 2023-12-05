@@ -1,9 +1,9 @@
 $(function () {
     $('.mainVisual .visual_slide').slick({
         pauseOnHover: false,
-        dots: false,
+        dots: true,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000
     })
 })
