@@ -11,17 +11,19 @@
 .default .title {
     max-width: 1200px;
     margin: 0 auto 32px auto;
+    padding: 0 15px;
 }
 
 .default .title h2 {
+    font-family: GmarketSans;
     font-size: 32px;
-    font-weight: 600;
-    margin: 0 0 16px 0;
+    font-weight: bold;
+    margin: 0 0 8px 0;
 }
 
 .default .title p {
     font-size: 18px;
-    margin: 16px 0 0 0;
+    font-weight: 500;
 }
 
 .default .title span {
