@@ -13,14 +13,15 @@ $(function () {
         e.preventDefault();
         const idx = $(this).parent().index();
 
-        $('.tab_content li').removeClass('on');
-        $('.tab_content li').eq(idx).addClass('on');
+        $('.mainProduct .tab_content li').removeClass('on');
+        $('.mainProduct .tab_content li').eq(idx).addClass('on');
     });
 
-    $('.tab_slide').slick({
-        lazyLoad: 'ondemand',
+    $('.mainProduct .tab_content .tab_slide').slick({
+        // lazyLoad: 'ondemand',
         slidesToShow: 4,
         arrows: false,
+        //dots: true,
 
     });
 

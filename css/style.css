@@ -1,11 +1,8 @@
 * {
-    outline: 1px solid tomato;
+    outline: 1px solid tomato--;
 }
 
-.slick-track,
-.slick-slide {
-    transition-delay: 300ms;
-}
+
 
 .wrap {
     min-width: 1600px;
@@ -36,12 +33,16 @@
     line-height: 70px;
 }
 
+.header h1 {
+    display: flex;
+    align-items: center;
+}
+
 .header h1 a {
-    display: inline-block;
+    display: block;
     width: 90px;
     height: 50px;
     font-size: 0;
-    vertical-align: middle;
     background: url(../images/logo_white.png) no-repeat;
 }
 
@@ -121,9 +122,20 @@
     height: 120px;
 }
 
+.header .header_wrap .util {
+    float: right;
+    /* margin: 0 0 0 auto; */
+}
+
 .header .header_wrap .lang {
     vertical-align: middle;
-    margin: 0 10px 10px 0;
+    /* margin: 0 10px 10px 0; */
+}
+
+.header .header_wrap .util {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .header .header_wrap .util a {
@@ -133,6 +145,11 @@
 
 .mainVisual {
     position: relative;
+}
+
+.mainVisual .slick-track,
+.mainVisual .slick-slide {
+    transition-delay: 300ms;
 }
 
 .mainVisual .visual_slide .itm {
@@ -178,7 +195,7 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0px 1px 1px #000;
-    /* margin: 0 0 32px 0; */
+    margin: 0 0 32px 0;
 }
 
 .mainVisual .visual_slide .itm a {
@@ -249,6 +266,10 @@
     margin: 0 0 24px 0;
 } */
 
+.mainProduct .inner {
+    overflow: hidden;
+}
+
 .mainProduct .tab_content img {
     width: 100%;
     height: 200px;
@@ -259,14 +280,15 @@
     height: 0;
     visibility: hidden;
 
-    display: none;
+
+    /* display: none; */
 }
 
 .mainProduct .tab_content li.on {
     height: auto;
     visibility: visible;
 
-    display: block;
+    /* display: block; */
 }
 
 
@@ -288,7 +310,7 @@
 
 .wide_banner .itm p {
     font-family: GmarketSans;
-    font-size: 32px;
+    font-size: 40px;
     color: #fff;
     line-height: 40px;
     text-shadow: 0px 1px 0px #000;
@@ -299,7 +321,7 @@
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
-    padding: 0 15px;
+    padding: 0 50px;
     text-align: right;
 }
 
@@ -308,5 +330,5 @@
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-    padding: 0 15px;
+    padding: 0 50px;
 }
