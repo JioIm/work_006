@@ -334,7 +334,7 @@
 } */
 
 .mainProduct .inner {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .mainProduct .tab_content img {
@@ -380,12 +380,12 @@
 }
 
 .mainProduct .tab_content .slick-prev {
-    left: 0;
+    left: -50px;
     transform: translate(0, -50%) rotate(-45deg);
 }
 
 .mainProduct .tab_content .slick-next {
-    right: 0;
+    right: -50px;
     transform: translate(0, -50%) rotate(135deg);
 }
 
